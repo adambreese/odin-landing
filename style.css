@@ -1,6 +1,5 @@
-a {
+a, a:link, a:visited {
     text-decoration: none;
-    color: white;
 }
 
 ul {
@@ -29,6 +28,10 @@ html, body {
     align-items: center;
     padding: 36px;
     gap: 24px;
+}
+
+.nav-link {
+    color: white;
 }
 
 .logo {
@@ -84,5 +87,9 @@ html, body {
 }
 
 .feature-text {
+    color: gray;
+}
+
+.img-attr {
     color: gray;
 }
