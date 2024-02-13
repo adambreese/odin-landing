@@ -10,3 +10,35 @@ ul {
 body {
     background-color: #1F2937;
 }
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-nav {
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    padding: 36px;
+    gap: 24px;
+}
+
+.logo {
+    display: flex;
+    width: 300px;
+    margin-right: auto;
+    padding: 24px;
+}
+
+.hero {
+    display: flex;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+}
